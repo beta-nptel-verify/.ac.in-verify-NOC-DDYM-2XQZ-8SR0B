@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Certificate showcase page" />
+  <title>Certificate Showcase</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body { background: #fff; font-family: Arial, Helvetica, sans-serif; }
+    main {
+      width: min(1122px, calc(100% - 48px));
+      margin: 26px auto 0;
+    }
+    .certificate {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #e0e0e0;
+    }
+    @media (max-width: 600px) {
+      main { width: calc(100% - 48px); margin-top: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- REPLACE certificate.png with your own image file name. -->
+    <img class="certificate" src="certificate.png" alt="Certificate" />
+  </main>
+</body>
+</html>
